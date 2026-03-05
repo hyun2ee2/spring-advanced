@@ -1,5 +1,6 @@
 package org.example.expert.domain.manager.service;
 
+import jakarta.validation.constraints.Null;
 import org.example.expert.domain.common.dto.AuthUser;
 import org.example.expert.domain.common.exception.InvalidRequestException;
 import org.example.expert.domain.manager.dto.request.ManagerSaveRequest;
